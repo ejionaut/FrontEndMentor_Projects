@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+  <main>
+     <top-segment>
+    <div class="topic">
+      <img id="topic-image" src="./assets/images/icon-correct.svg" alt="">
+      <h2 id="topic-header" class="bold textc">Topic Header</h2>
+    </div>
+     <div class="toggle">
+      <img class="light" src="./assets/images/icon-sun-dark.svg" alt="light mode">
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <img class="night" src="./assets/images/icon-moon-dark.svg" alt="dark mode">
+     </div>
+    </top-segment>
+  <bottom-segment>
+    <section-left>
+      <h1 class="textc overflow flarge" id="maintext">Welcome to the <span class="bold">Frontend Quiz!</span></h1>
+      <p class="italic front" id="subtext">Pick a subject to get started</p>
+    </section-left>
+    <section-right>
+      <div class="menu widget 1">
+        <img class="wicon html" src="./assets/images/icon-html.svg" alt="HTML">
+        <h2 class="bold widget-text">HTML</h2>
+      </div>
+      <div class="menu widget 2"> 
+        <img class="wicon css" src="./assets/images/icon-css.svg" alt="CSS">
+        <h2 class="bold widget-text">CSS</h2>
+      </div>
+      <div class="menu widget 3">
+        <img class="wicon js" src="./assets/images/icon-js.svg" alt="Javascript">
+        <h2 class="bold widget-text">JavaScript</h2>
+      </div>
+      <div class="menu widget 4">
+        <img class="wicon acs" src="./assets/images/icon-accessibility.svg" alt="Accessibility">
+        <h2 class="bold widget-text">Accessibility</h2>
+      </div>
+    </section-right>
+  </bottom-segment>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
